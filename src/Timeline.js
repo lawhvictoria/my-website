@@ -122,7 +122,7 @@ class Timeline extends React.Component {
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
                             contentStyle={{ background: '#FFFFFF', color: '#5C5C5C', fontFamily: 'Nunito' }}
-                            iconStyle={{ background: '#FFFFFF', paddingTop: '11px', paddingLeft: '2px'}}
+                            iconStyle={{ background: '#FFFFFF', paddingTop: '11px' }}
                             icon={<NBCIcon />}
                         >
                             <ReactCardFlip isFlipped={this.state.adSalesTech} flipDirection="horizontal">
@@ -165,7 +165,7 @@ class Timeline extends React.Component {
                         <VerticalTimelineElement
                                 className="vertical-timeline-element--work"
                                 contentStyle={{ background: '#FFFFFF', color: '#5C5C5C', fontFamily: 'Nunito' }}
-                                iconStyle={{ background: '#FFFFFF', paddingTop: '11px', paddingLeft: '2px'}}
+                                iconStyle={{ background: '#FFFFFF', paddingTop: '11px' }}
                                 icon={<NBCIcon />}
                         >
                             <ReactCardFlip isFlipped={this.state.threatIntel} flipDirection="horizontal">
@@ -213,7 +213,7 @@ class Timeline extends React.Component {
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
                             contentStyle={{ background: '#FFFFFF', color: '#5C5C5C', fontFamily: 'Nunito' }}
-                            iconStyle={{ background: '#FFFFFF', paddingTop: '11px', paddingLeft: '2px'}}
+                            iconStyle={{ background: '#FFFFFF', paddingTop: '11px' }}
                             icon={<NBCIcon />}
                         >
                             <ReactCardFlip isFlipped={this.state.dataIntern} flipDirection="horizontal">
@@ -252,7 +252,7 @@ class Timeline extends React.Component {
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
                             contentStyle={{ background: '#FFFFFF', color: '#5C5C5C', fontFamily: 'Nunito' }}
-                            iconStyle={{ background: '#FFFFFF', paddingTop: '15px', paddingLeft: '4px'}}
+                            iconStyle={{ background: '#FFFFFF', paddingTop: '15px', paddingLeft: '2px'}}
                             icon={<MCIcon />}
                         >
                             <ReactCardFlip isFlipped={this.state.mcIntern} flipDirection="horizontal">
@@ -339,7 +339,7 @@ class Timeline extends React.Component {
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
                             contentStyle={{ background: '#FFFFFF', color: '#5C5C5C', fontFamily: 'Nunito' }}
-                            iconStyle={{ background: '#FFFFFF', paddingTop: '8px', paddingLeft: '7px'}}
+                            iconStyle={{ background: '#FFFFFF', paddingTop: '8px' }}
                             icon={<KaiserIcon />}
                         >
                             <ReactCardFlip isFlipped={this.state.kaiserIntern} flipDirection="horizontal">
@@ -375,7 +375,7 @@ class Timeline extends React.Component {
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
                             contentStyle={{ background: '#FFFFFF', color: '#5C5C5C', fontFamily: 'Nunito' }}
-                            iconStyle={{ background: '#FFFFFF', paddingTop: '10px', paddingLeft: '10px'}}
+                            iconStyle={{ background: '#FFFFFF', paddingTop: '10px' }}
                             icon={<QualcommIcon />}
                         >
                             <ReactCardFlip isFlipped={this.state.qualcomm} flipDirection="horizontal">
