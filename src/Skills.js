@@ -152,6 +152,51 @@ class Skills extends React.Component {
                         Languages
                     </Typography>
                     <Typography variant='h5' className={classes.title} style={{marginBottom: '20px'}}>
+                        Frontend
+                    </Typography>
+                    <Grid container spacing={1} className={classes.center}>
+                        <Grid item xs={2}>
+                            <div class="skillsbox">
+                                <img src={CssLogo} alt='CSS' className={classes.logos} />
+                                <div class="skillsbox-layer_top">
+                                    <div class="skillsbox-text">CSS</div>
+                                </div>
+                            </div>
+                        </Grid>
+                        <Grid item xs={2}>
+                            <div class="skillsbox">
+                                <img src={HtmlLogo} alt='HTML' className={classes.logos} />
+                                <div class="skillsbox-layer_top">
+                                    <div class="skillsbox-text">HTML</div>
+                                </div>
+                            </div>
+                        </Grid>
+                        <Grid item xs={2}>
+                            <div class="skillsbox">
+                                <img src={JSLogo} alt='JavaScript' className={classes.logos} />
+                                <div class="skillsbox-layer_top">
+                                    <div class="skillsbox-text">JavaScript</div>
+                                </div>
+                            </div>
+                        </Grid>
+                        <Grid item xs={2}>
+                            <div class="skillsbox">
+                                <img src={MaterialUILogo} alt='Material UI' className={classes.logos} />
+                                <div class="skillsbox-layer_top">
+                                    <div class="skillsbox-text">Material UI</div>
+                                </div>
+                            </div>
+                        </Grid>
+                        <Grid item xs={2}>
+                            <div class="skillsbox">
+                                <img src={ReactLogo} alt='ReactJS' className={classes.logos} />
+                                <div class="skillsbox-layer_top">
+                                    <div class="skillsbox-text">ReactJS</div>
+                                </div>
+                            </div>
+                        </Grid>
+                    </Grid>
+                    <Typography variant='h5' className={classes.title} style={{marginBottom: '20px', marginTop: '20px'}}>
                         Backend
                     </Typography>
                     <Grid container spacing={1} className={classes.center}>
@@ -200,51 +245,6 @@ class Skills extends React.Component {
                                 <img src={SmlLogo} alt='SML' className={classes.logos} />
                                 <div class="skillsbox-layer_top">
                                     <div class="skillsbox-text">Standard ML</div>
-                                </div>
-                            </div>
-                        </Grid>
-                    </Grid>
-                    <Typography variant='h5' className={classes.title} style={{marginBottom: '20px', marginTop: '20px'}}>
-                        Frontend
-                    </Typography>
-                    <Grid container spacing={1} className={classes.center}>
-                        <Grid item xs={2}>
-                            <div class="skillsbox">
-                                <img src={CssLogo} alt='CSS' className={classes.logos} />
-                                <div class="skillsbox-layer_top">
-                                    <div class="skillsbox-text">CSS</div>
-                                </div>
-                            </div>
-                        </Grid>
-                        <Grid item xs={2}>
-                            <div class="skillsbox">
-                                <img src={HtmlLogo} alt='HTML' className={classes.logos} />
-                                <div class="skillsbox-layer_top">
-                                    <div class="skillsbox-text">HTML</div>
-                                </div>
-                            </div>
-                        </Grid>
-                        <Grid item xs={2}>
-                            <div class="skillsbox">
-                                <img src={JSLogo} alt='JavaScript' className={classes.logos} />
-                                <div class="skillsbox-layer_top">
-                                    <div class="skillsbox-text">JavaScript</div>
-                                </div>
-                            </div>
-                        </Grid>
-                        <Grid item xs={2}>
-                            <div class="skillsbox">
-                                <img src={MaterialUILogo} alt='Material UI' className={classes.logos} />
-                                <div class="skillsbox-layer_top">
-                                    <div class="skillsbox-text">Material UI</div>
-                                </div>
-                            </div>
-                        </Grid>
-                        <Grid item xs={2}>
-                            <div class="skillsbox">
-                                <img src={ReactLogo} alt='ReactJS' className={classes.logos} />
-                                <div class="skillsbox-layer_top">
-                                    <div class="skillsbox-text">ReactJS</div>
                                 </div>
                             </div>
                         </Grid>
