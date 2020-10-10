@@ -64,27 +64,32 @@ const styles = {
 
 const NBCIcon = () => (
     <Icon>
-        <img src={NBCLogo} height={53} alt="nbc logo" />
+        <img 
+            src={NBCLogo} 
+            height={53} 
+            alt="nbc logo" 
+            style={{width: '100%', height: '100%', objectFit: 'contain'}}
+        />
     </Icon>
 );
 const CPIcon = () => (
     <Icon>
-        <img src={CPLogo} height={60} alt="cal poly logo" />
+        <img style={{width: '100%', height: '100%', objectFit: 'contain'}} src={CPLogo} height={60} alt="cal poly logo" />
     </Icon>
 );
 const MCIcon = () => (
     <Icon>
-        <img src={MCLogo} height={32} alt="mastercard logo" />
+        <img style={{width: '100%', height: '100%', objectFit: 'contain'}} src={MCLogo} height={32} alt="mastercard logo" />
     </Icon>
 );
 const KaiserIcon = () => (
     <Icon>
-        <img src={KaiserLogo} height={43} alt="kaiser logo" />
+        <img style={{width: '100%', height: '100%', objectFit: 'contain'}} src={KaiserLogo} height={43} alt="kaiser logo" />
     </Icon>
 );
 const QualcommIcon = () => (
     <Icon>
-        <img src={QualcommLogo} height={43} alt="qualcomm logo" />
+        <img style={{width: '100%', height: '100%', objectFit: 'contain'}} src={QualcommLogo} height={43} alt="qualcomm logo" />
     </Icon>
 );
 
@@ -252,7 +257,7 @@ class Timeline extends React.Component {
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
                             contentStyle={{ background: '#FFFFFF', color: '#5C5C5C', fontFamily: 'Nunito' }}
-                            iconStyle={{ background: '#FFFFFF', paddingTop: '15px', paddingLeft: '2px'}}
+                            iconStyle={{ background: '#FFFFFF', paddingLeft: '2px'}}
                             icon={<MCIcon />}
                         >
                             <ReactCardFlip isFlipped={this.state.mcIntern} flipDirection="horizontal">
@@ -339,7 +344,7 @@ class Timeline extends React.Component {
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
                             contentStyle={{ background: '#FFFFFF', color: '#5C5C5C', fontFamily: 'Nunito' }}
-                            iconStyle={{ background: '#FFFFFF', paddingTop: '8px' }}
+                            iconStyle={{ background: '#FFFFFF'}}
                             icon={<KaiserIcon />}
                         >
                             <ReactCardFlip isFlipped={this.state.kaiserIntern} flipDirection="horizontal">
