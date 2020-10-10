@@ -87,7 +87,7 @@ class Home extends React.Component {
                         </Carousel>
                     </div>
                     <div className={classes.aboutMe}>
-                        <Typography variant="body1" component="body1" style={{color: '#5C5C5C', fontSize: '21px' }}>
+                        <Typography variant="body1" component="body1" style={{color: '#5C5C5C', fontSize: '30px' }}>
                             I graduated from Cal Poly San Luis Obispo with a Bachelor of Science 
                             degree in Software Engineering. I am currently a full stack 
                             engineer at NBCUniversal. I am driven by my sense of curiosity 
