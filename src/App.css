@@ -38,6 +38,6 @@
 }
 
 body {
-  display: flex;
+  min-width: fit-content;
   overflow-x: auto;
 }

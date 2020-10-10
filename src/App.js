@@ -10,7 +10,7 @@ import './App.css';
 
 function App() {
   return (
-    <HashRouter style={{width: '100%', display: 'flex' }}  basename="/">
+    <HashRouter style={{width: '100%'}}  basename="/">
       <div className="App">
         <Switch>
           <Route exact path="/" component={Home} />

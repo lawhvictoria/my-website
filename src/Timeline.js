@@ -16,7 +16,6 @@ import QualcommLogo from './images/company_logos/qualcomm.png'
 const styles = {
     pageTitle: {
         align: 'center',
-        display: 'flex',  
         justifyContent:'center', 
         alignItems:'center',
         textAlign: 'center', 

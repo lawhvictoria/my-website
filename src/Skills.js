@@ -32,7 +32,6 @@ import SplunkLogo from './images/skills_logo/tools/splunk.png'
 const styles = {
     pageTitle: {
         align: 'center',
-        display: 'flex',  
         justifyContent:'center', 
         alignItems:'center',
         textAlign: 'center',
@@ -43,7 +42,6 @@ const styles = {
     },
     title: {
         align: 'center',
-        display: 'flex',  
         justifyContent:'center', 
         alignItems:'center',
         textAlign: 'center', 
