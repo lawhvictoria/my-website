@@ -73,22 +73,22 @@ const NBCIcon = () => (
 );
 const CPIcon = () => (
     <Icon>
-        <img style={{width: '100%', height: '100%', objectFit: 'contain'}} src={CPLogo} height={60} alt="cal poly logo" />
+        <img style={{width: '100%', height: '100%', objectFit: 'contain'}} src={CPLogo} alt="cal poly logo" />
     </Icon>
 );
 const MCIcon = () => (
     <Icon>
-        <img style={{width: '100%', height: '100%', objectFit: 'contain'}} src={MCLogo} height={32} alt="mastercard logo" />
+        <img style={{width: '100%', height: '100%', objectFit: 'contain'}} src={MCLogo} alt="mastercard logo" />
     </Icon>
 );
 const KaiserIcon = () => (
     <Icon>
-        <img style={{width: '100%', height: '100%', objectFit: 'contain'}} src={KaiserLogo} height={43} alt="kaiser logo" />
+        <img style={{width: '85%', height: '85%', objectFit: 'contain'}} src={KaiserLogo} alt="kaiser logo" />
     </Icon>
 );
 const QualcommIcon = () => (
     <Icon>
-        <img style={{width: '100%', height: '100%', objectFit: 'contain'}} src={QualcommLogo} height={43} alt="qualcomm logo" />
+        <img style={{width: '100%', height: '100%', objectFit: 'contain'}} src={QualcommLogo} alt="qualcomm logo" />
     </Icon>
 );
 
