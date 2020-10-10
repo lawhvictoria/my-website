@@ -47,7 +47,7 @@ class Home extends React.Component {
         return (
             <>
             <NavBar />
-            <div style={{ alignContent: 'center', justifyContent:'center', align: 'center', alignItems:'center', textAlign: 'center', alignSelf: 'center' }}>
+            <div style={{ position:'relative', alignContent: 'center', justifyContent:'center', align: 'center', alignItems:'center', textAlign: 'center', alignSelf: 'center' }}>
                 <div style={{ alignContent: 'center', justifyContent:'center', align: 'center', alignItems:'center', textAlign: 'center', alignSelf: 'center' }}>
                     <Typography variant="h1" component="h1" className={classes.title}>
                         Hello World!
